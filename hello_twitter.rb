@@ -12,5 +12,5 @@ client = Twitter::REST::Client.new do |config|
 end
 p client
 
-p client.update('Mon second tweet en ruby !!!!')
-p client.follow('Arduino Tutorial')
+p client.update('Bonne nuit Twitter !!!!')
+#p client.follow('Arduino Tutorial')
